@@ -2,12 +2,6 @@
 
 BookBot is my first [Boot.dev](https://www.boot.dev) project!
 
-Name: John-Paul Aoun
-School: Wollemi College
-Subject: Computing Technology
-Year: 10
-Project: BookBot
-
 BookBot is a simple Python program that analyses books and provides information about their text.
 
 # Features
