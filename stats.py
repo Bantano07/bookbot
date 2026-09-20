@@ -1,6 +1,9 @@
 def get_word_count(book: str) -> int:
     words = len(book.split())
-    return f"Found {words} total words"
+    if words == 1:
+        return f"Found 1 total word"
+    else: 
+        return f"Found {words} total words"
 
 def get_char_count(book: str) -> dict[str, int]:
     book_chars = book.lower()

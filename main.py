@@ -19,6 +19,9 @@ def print_report(book_path: str, word_count: int, sorted_char_count: list[tuple[
     print(word_count)
     print("--------- Character Count -------")
 
+    if sorted_char_count == []:
+        print("Found 0 total characters")
+        
     for char in sorted_char_count:
         if char[0].isalpha():
             print(f"{char[0]}: {char[1]}")
